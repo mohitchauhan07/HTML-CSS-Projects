@@ -1,0 +1,59 @@
+.card-body{
+    margin-top: 50px;
+    height: 90vh;
+    width: 33vw;
+    /* background-color: rgb(138, 132, 132); */
+
+    margin-left: 33%;
+}
+.card-body .logo{
+    margin-left: 40%;
+}
+.card-body .company-name{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.card-body .social-login{
+    margin-left: 33%;
+    margin-top: 30px;
+}
+.card-body .social-logo{
+    margin-left: 20px;
+}
+hr{
+    margin-top: 30px;
+    color: rgba(145, 135, 131,0.5);
+}
+.form-body{
+    margin-top: 40px;
+}
+.email-box{
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+}
+.password-box{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+}
+.additional-features{
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-top: 30px;
+}
+#forgotPassword{
+    float: right;
+}
+.login-button{
+    background-color: rgba(105,8,3,255);
+    margin-top: 30px;
+    margin-left: 15%;
+    color: white;
+    font-size: 25px;
+    padding: 15px 180px;
+}
+.new-user{
+    margin-left: 38%;
+} 
