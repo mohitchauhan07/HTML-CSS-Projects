@@ -1,0 +1,452 @@
+/* Resetting Default Css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* -------------------Main Styling------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body, .main_wrapper{
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* -------------Flex ROW----------- */
+.flex{
+    display: flex;
+    /* border: 1px solid green; */
+}
+
+/* ------------Flex Col.----------- */
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+}
+
+header{
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+    width: 100%;
+    padding: 12px 0;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 6px #0000007d;
+}
+.inner_header{
+    width: 1170px;
+    margin: 0 auto;
+}
+figure{
+    float: left;
+}
+.nav{
+    float: right;
+    text-align: right;
+    font-size: 20px;
+}
+.nav ul li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 33px;
+}
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    
+    color: rgba(0,0,0,0.7);
+    padding: 2px;
+}
+#first_section{
+    margin-top: 100px;
+}
+.section_block{
+    width: 100%;
+    padding: 12px 0;
+    /* border: 1px solid black; */
+}
+.section_block .container{
+    width: 1170px;
+    height: 900px;
+    display: flex;
+    margin: 0 auto;
+    padding: auto 0;
+    /* border: 1px solid pink; */
+}
+.home_info{
+    align-self: center;
+    line-height: 1.4;  
+}
+.home_info h2{
+    font-size: 45px;
+    font-weight: 1000;
+    margin-bottom: 50px;
+    padding-right: 100px;
+}
+.special-text{
+    color: rgba(255, 192, 75, 0.87);
+}
+.home_info p{
+    padding-right: 230px;
+    font-size: 19px;
+    color:rgba(0, 0, 0, 0.8);
+}
+.profile-photo-container{
+    padding-top: 50px;
+    height: 700px;
+    width: 1500px;
+}
+/* --------------------about us section------------------- */
+#about-section{
+    background-color: rgba(236, 232, 232, 0.438);
+}
+
+.about img{
+    margin-top: 100px;
+    margin-left: -200px;
+    height: 600px;
+    width: 600px;
+}
+.about .discription_wrapper{
+    padding-top: 130px;
+    padding-left: 150px;
+}
+.about .discription_wrapper h2{
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+.about .discription_wrapper p{
+    line-height: 2;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+
+
+/* --------------------about us section------------------- */
+
+
+/* ------------------admission section-------------------- */
+
+.admissions .main_heading{
+    margin-top: 200px;
+    /* border: 1px solid black; */
+    font-size: 40px;
+    justify-items: center;
+    text-align: center;
+    padding: 0 400px;
+}
+.rest_content_flex{
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px;
+}
+.rest_content_flex .section{
+    /* border: 1px solid pink; */
+    align-items: center;
+    width: 186px;
+    
+}
+.rest_content_flex .section img{
+    height: 100px;
+    width: 100px;
+}
+.rest_content_flex .section > *{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.rest_content_flex .section h2{
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.rest_content_flex .section p{
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.527);
+}
+/* ------------------admission section-------------------- */
+
+
+/* -------------------NEWS SECTION ------------------------ */
+.news .main_heading{
+    margin-top: 200px;
+    margin-bottom: 80px;
+    /* border: 1px solid black; */
+    font-size: 50px;
+    font-weight: 600;
+    justify-items: center;
+    text-align: center;
+    padding: 0 400px;
+}
+.news_rest_content_flex{
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -60px;
+}
+.news_rest_content_flex .arrow{
+    height: auto;
+    width: auto;
+}
+/* -------------------NEWS SECTION ------------------------ */
+
+
+/* ----------------Gallery Section -------------------------- */
+#gallery-section{
+    background-color: rgba(236, 232, 232, 0.438);
+}
+.gallery .main_heading{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.gallery p{
+    color: rgba(243, 190, 92, 0.932);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.gallery_rest_content_flex{
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.gallery_rest_content_flex img{
+    margin-bottom: 30px;
+}
+
+/* ----------------Gallery Section -------------------------- */
+
+/* ----------------Contact Us Section -------------------------- */
+.contact{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.card_portion{
+    position: absolute;
+    background-color: white;
+    float: left;
+    z-index: 2;
+    height: 55%;
+    width: 400px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+    border-radius: 1.2%;
+    padding: 50px 10px 10px 50px;
+}
+.content_portion{
+    background-color: rgba(230,168,89,255);
+    z-index: 1;
+    position: absolute;
+    width: 91.5%;
+    margin-left: 100px;
+    height: 100%;
+    border-radius: 1%;
+}
+.card_portion h4{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 100, 0.856);
+}
+.card_portion .main-para{
+    font-size: 18px;
+    margin-top: 60px;
+    color: rgba(0, 0, 100, 0.856);
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.card_portion .address{
+    margin-top: 22px;
+    display: flex;
+    width: 57%;
+    /* border: 1px solid pink; */
+    align-items: center;
+}
+.card_portion .address .para{
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 17px;
+}
+.social-icon{
+    margin-top: 50px;
+}
+.social-icon img{
+    margin-right: 20px;
+}
+
+.content_portion .input-form-section{
+    /* border: 1px solid black; */
+    width: 50%;
+    float: right;
+    margin-top: 170px;
+    margin-right: 100px;
+}
+.input-form-section h2{
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+}
+.input-form-section .para{
+    margin-top: 8px;
+    /* border: 1px solid pink; */
+    width: 65%;
+    color: white;
+    font-size: 24px;
+}
+.form-section{
+    /* border: 1px solid aqua; */
+    width: 85%;
+}
+form input{
+    border: hidden;
+    width: 100%;
+    height: 60px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding-left: 25px;
+}
+#text-area{
+    height: 180px;
+}
+#submit-btn{
+    margin-top: 40px;
+    width: 40%;
+    height: 55px;
+    background-color: rgba(100,55,48,255);
+    border: none;
+    border-radius: 26px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 5px;
+}
+/* ----------------Contact Us Section -------------------------- */
+
+
+/* ----------------Footer Section -------------------------- */
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(40,35,34,255);
+    padding: 10px;
+}
+.footer-wrapper{
+    /* border: 1px solid white; */
+    height: 100%;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-wrapper .content_section{
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 20px; */
+}
+.footer-wrapper .content_section .first_section{
+    display: flex;
+    flex-direction: column;
+    width: 333px;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+}
+.first_section > p{
+    margin-top: 20px;
+    color: rgb(117, 116, 116);
+}
+.footer-wrapper .content_section .second_section{
+    display: flex;
+    flex-direction: column;
+    margin-left: -100px;
+    color: white;
+    line-height: 2;
+}
+.second_section h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.second_section ul{
+    font-weight: 600;
+}
+.footer-wrapper .content_section .third_section{
+    /* margin-left: 100px; */
+    color: white;
+    line-height: 2;
+}
+.third_section h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.third_section form{
+    top: 0;
+}
+#footer-id{
+    margin-top: 0;
+    margin-bottom: 25px;
+    height: 50px;
+}
+.footer-btn{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(230,168,89,255);
+    color: white;
+}
+.copyright_section{
+    text-align: center;
+    color: white;
+}
+/* ----------------Footer Section -------------------------- */
