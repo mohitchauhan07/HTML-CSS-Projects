@@ -54,7 +54,8 @@ table {
 
 html, body, .main_wrapper{
     height: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Raleway',sans-serif;
 }
 /* -------------Flex ROW----------- */
 .flex{
@@ -77,7 +78,7 @@ header{
     padding: 12px 0;
     top: 0;
     left: 0;
-    box-shadow: 0 0 6px #0000007d;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
 }
 .inner_header{
     width: 1170px;
@@ -142,20 +143,43 @@ figure{
     height: 700px;
     width: 1500px;
 }
+.profile-photo-container figure{
+    position: relative;
+}
+.profile-photo-container .floating-arrow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(245, 241, 241, 0.973);
+    padding: 15px 35px;
+}
+.profile-photo-container .floating-arrow img{
+    margin-right: 10px;
+    cursor: pointer;
+}
 /* --------------------about us section------------------- */
 #about-section{
+    width: 1800px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+#ABOUTT{
+    margin-left: 500px;
+    /* border: 1px solid yellow; */
     background-color: rgba(236, 232, 232, 0.438);
+    width: 73%;
+    right: 0;
 }
 
 .about img{
     margin-top: 100px;
-    margin-left: -200px;
+    margin-left: -450px;
     height: 600px;
-    width: 600px;
+    width: 750px;
 }
 .about .discription_wrapper{
     padding-top: 130px;
-    padding-left: 150px;
+    padding-left: 110px;
 }
 .about .discription_wrapper h2{
     font-size: 45px;
@@ -165,6 +189,23 @@ figure{
     line-height: 2;
     font-size: 19px;
     margin-bottom: 50px;
+    color: rgba(0,0,0,0.6);
+    width: 610px;
+    /* border: 1px solid yellow; */
+}
+.about .discription_wrapper button{
+    background-color: rgba(230,168,89,255);
+    opacity: 90%;
+    border: hidden;
+    border-radius: 2px;
+    padding: 15px 75px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.about .discription_wrapper button:hover{
+    opacity: 100%;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 
@@ -218,8 +259,9 @@ figure{
 
 
 /* -------------------NEWS SECTION ------------------------ */
+
 .news .main_heading{
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 80px;
     /* border: 1px solid black; */
     font-size: 50px;
@@ -234,9 +276,22 @@ figure{
     align-items: center;
     margin: 0 -60px;
 }
-.news_rest_content_flex .arrow{
-    height: auto;
-    width: auto;
+.news_rest_content_flex .news_arrow{
+    cursor: pointer;
+}
+.news_rest_content_flex .section{
+    position: relative;
+    z-index: 1;
+}
+
+.news_rest_content_flex .section p{
+    position: absolute;
+    z-index: 2;
+    padding: 25px 35px;
+    background-color: rgba(247, 244, 244, 0.959);
+    bottom: 0;
+    font-size: 18px;
+    border-radius: 1px;
 }
 /* -------------------NEWS SECTION ------------------------ */
 
@@ -244,9 +299,11 @@ figure{
 /* ----------------Gallery Section -------------------------- */
 #gallery-section{
     background-color: rgba(236, 232, 232, 0.438);
+    width: 1800px;
+    margin: auto;
 }
 .gallery .main_heading{
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 30px;
     font-size: 50px;
     font-weight: 600;
@@ -324,7 +381,9 @@ figure{
 }
 .social-icon img{
     margin-right: 20px;
+    cursor: pointer;
 }
+
 
 .content_portion .input-form-section{
     /* border: 1px solid black; */
@@ -372,6 +431,12 @@ form input{
     font-weight: 600;
     color: white;
     letter-spacing: 5px;
+    opacity: 90%;
+}
+#submit-btn:hover{
+    opacity: 100%;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 /* ----------------Contact Us Section -------------------------- */
 
@@ -404,6 +469,7 @@ footer{
     letter-spacing: 1.2px;
     line-height: 1.5;
 }
+
 .first_section > p{
     margin-top: 20px;
     color: rgb(117, 116, 116);
@@ -421,6 +487,10 @@ footer{
 }
 .second_section ul{
     font-weight: 600;
+}
+.second_section ul li a{
+    text-decoration: none;
+    color: white;
 }
 .footer-wrapper .content_section .third_section{
     /* margin-left: 100px; */
@@ -444,6 +514,13 @@ footer{
     height: 50px;
     background-color: rgba(230,168,89,255);
     color: white;
+    opacity: 95%;
+    border: hidden;
+}
+.footer-btn:hover{
+    opacity: 100%;
+    box-shadow: 2px 2px 4px rgba(255,255,255,0.4);
+    cursor: pointer;
 }
 .copyright_section{
     text-align: center;

@@ -38,11 +38,14 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tepmor incididunt ut labore et doloer magna aliqua.</p>
                 </div>
                 <div class="profile-photo-container">
-                    <img class="main-hero-img" src="assets/images/hero-image.jpg" height="100%" width="100%"  alt="Class Image">
-                    
-                    <!-- <img class="arrow" src="assets/images/arrow-left-inactive.png" alt="left arrow">
-                    <img class="arrow" src="assets/images/arrow-right-active.png" alt="right arrow"> -->
-                    
+                    <figure>
+                        <img class="main-hero-img" src="assets/images/hero-image.jpg" height="100%" width="100%"  alt="Class Image">
+                        <div class="floating-arrow">
+                            <img class="arrow" src="assets/images/arrow-left-inactive.png" alt="left arrow">
+                            <img class="arrow" src="assets/images/arrow-right-active.png" alt="right arrow"> 
+                        </div>  
+                    </figure>
+                                   
                 </div>
             </div>
         </section>
@@ -51,7 +54,9 @@
         <!-- About Us banner section  -->
         <section id="about-section" class="section_block">
             <div id="ABOUTT" class="about container">
-                <img src="assets/images/about-img.jpg" height="100%" width="100%" alt="about image">
+                <figure>
+                    <img src="assets/images/about-img.jpg" height="100%" width="100%" alt="about image" alt="about team image">
+                </figure>
                 <div class="discription_wrapper">
                     <h2>About Us</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna alique. Ut enim ad minim veniam,
@@ -62,6 +67,7 @@
                         quis nostrud exercitation ullamco lobraris nisi ut
                         aliquip ex ea commodo consequat.
                     </p>
+                    <button class="about-btn">Learn More</button>
                 </div>
                 
             </div>
@@ -77,17 +83,23 @@
                 </div>
                 <div class="rest_content_flex flex">
                     <div class="section flex-col">
-                        <img src="assets/images/icon-1.png" alt="text icon">
+                        <figure>
+                            <img src="assets/images/icon-1.png" alt="text icon">
+                        </figure>
                         <h2>Lorem Ipsum Dolor Sit Amet</h2>
                         <p>Lorem ipsum dolor sit amet consect etur.</p>
                     </div>
                     <div class="section flex-col">
-                        <img src="assets/images/icon-2.png" alt="text icon">
+                        <figure>
+                            <img src="assets/images/icon-2.png" alt="text icon">
+                        </figure>
                         <h2>Sports Training</h2>
                         <p>Lorem ipsum dolor sit amet consect etur.</p>                       
                     </div>
                     <div class="section flex-col">
-                        <img src="assets/images/icon-3.png" alt="text icon">
+                        <figure>
+                            <img src="assets/images/icon-3.png" alt="text icon">
+                        </figure>
                         <h2>Lorem Ipsum Dolor Sit Amet</h2>
                         <p>Lorem ipsum dolor sit amet consect etur.</p>
                     </div>
@@ -108,13 +120,22 @@
                         <img src="assets/images/arrow-left-inactive.png" alt="text icon">
                     </div>
                     <div class="section flex-col">
-                        <img src="assets/images/news-1.jpg" alt="text icon"height="400px" width="300px">
+                        <figure>
+                            <img src="assets/images/news-1.jpg" alt="text icon"height="380px" width="300px">
+                        </figure>
+                        <p class="float-text">Lorem Ipsum</p>
                     </div>
                     <div class="section flex-col">
-                        <img src="assets/images/news-2.jpg" alt="text icon"height="400px" width="300px">                     
+                        <figure>
+                            <img src="assets/images/news-2.jpg" alt="text icon"height="380px" width="300px">                     
+                        </figure>
+                        <p class="float-text">Lorem Ipsum</p>
                     </div>
                     <div class="section flex-col">
-                        <img src="assets/images/news-3.png" alt="text icon"height="400px" width="300px">
+                        <figure>
+                            <img src="assets/images/news-3.png" alt="text icon"height="380px" width="300px">
+                        </figure>
+                        <p class="float-text">Lorem Ipsum</p>
                     </div>
                     <div class="news_arrow flex-col">
                         <img src="assets/images/arrow-right-active.png" alt="text icon">
@@ -133,24 +154,24 @@
                 </div>
                 <p>---- Our Memorable Moments</p>
                 <div class="gallery_rest_content_flex flex">
-                    <div class="section flex-col">
+                    <figure class="section flex-col">
                         <img src="assets/images/gallery-1.jpg" alt="text icon"height="280px" width="370px">
-                    </div>
-                    <div class="section flex-col">
+                    </figure>
+                    <figure class="section flex-col">
                         <img src="assets/images/gallery-2.png" alt="text icon"height="280px" width="370px">                     
-                    </div>
-                    <div class="section flex-col">
+                    </figure>
+                    <figure class="section flex-col">
                         <img src="assets/images/gallery-3.png" alt="text icon"height="280px" width="370px">
-                    </div>
-                    <div class="section flex-col">
+                    </figure>
+                    <figure class="section flex-col">
                         <img src="assets/images/gallery-4.png" alt="text icon"height="280px" width="370px">
-                    </div>
-                    <div class="section flex-col">
+                    </figure>
+                    <figure class="section flex-col">
                         <img src="assets/images/gallery-5.png" alt="text icon"height="280px" width="370px">                     
-                    </div>
-                    <div class="section flex-col">
+                    </figure>
+                    <figure class="section flex-col">
                         <img src="assets/images/gallery-6.png" alt="text icon"height="280px" width="370px">
-                    </div>
+                    </figure>
                 </div>
                 
             </div>
@@ -233,7 +254,9 @@
             <div class="footer-wrapper">
                 <div class="content_section">
                     <div class="first_section">
-                        <img src="assets/images/logo.png" alt="company logo" style="border-radius: 6px;height: 80px;width: 80px;">
+                        <figure>
+                            <a href="#first_section"><img src="assets/images/logo.png" alt="company logo" style="border-radius: 6px;height: 80px;width: 80px;"></a>
+                        </figure>
                         <p class="para">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed to eiusmod tempor inident ut labore et dolore magna aliqua.
                         </p>
@@ -242,10 +265,10 @@
                         <h4>Quick Links</h4>
                         <br>
                         <ul>
-                            <li>Admissions</li>
-                            <li>Learning</li>
-                            <li>Services</li>
-                            <li>Careers</li>
+                            <li><a href="#admision_section" class="quick-links">Admissions</a></li>
+                            <li><a href="#Learning" class="quick-links">Learning</a></li>
+                            <li><a href="#Services" class="quick-links">Services</a></li>
+                            <li><a href="#Careers" class="quick-links">Careers</a></li>
                         </ul>
 
                     </div>
